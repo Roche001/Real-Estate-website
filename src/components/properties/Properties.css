@@ -1,0 +1,38 @@
+.housing {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.housing-options {
+  height: 25rem;
+  width: 25rem;
+
+  color: #020202;
+}
+
+.slide img {
+  height: 25rem;
+  width: 25rem;
+}
+.housing-plan {
+  width: 25rem;
+  height: 30rem;
+  box-shadow: 0.75em 0.75em 1em rgb(58, 86, 87);
+}
+.housing-plan:hover {
+  transform: rotate(2deg);
+}
+
+.location1 h5 {
+  color: #d42b44;
+}
+.location2 {
+  margin-left: 8rem;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  color: #8e8a81;
+}

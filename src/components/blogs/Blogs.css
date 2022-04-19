@@ -1,0 +1,21 @@
+.blogs {
+  margin-left: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.blogs-box {
+  height: 28rem;
+  width: 23rem;
+  box-shadow: 0.75em 0.75em 1em rgb(58, 86, 87);
+}
+.blogs-box img {
+  height: 15rem;
+  width: 23rem;
+}
+.small {
+  margin-top: 0.5rem;
+}
+.blog-content a :hover {
+  color: #f63909;
+}
