@@ -1,5 +1,10 @@
-.video {
-  margin-left: 2.5rem;
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video iframe {
+  margin-left: 20rem;
 }
 .h2 {
   margin-top: -4rem;
