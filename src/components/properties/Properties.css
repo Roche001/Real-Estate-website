@@ -1,9 +1,9 @@
 .housing {
   display: grid;
+  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding: 4rem;
 }
 
 .housing-options {
