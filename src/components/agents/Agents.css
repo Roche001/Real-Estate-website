@@ -1,6 +1,11 @@
+#agents {
+  justify-content: center;
+}
 .agents {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin-left: 2rem;
   gap: 1.5rem;
   cursor: pointer;
