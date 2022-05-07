@@ -1,5 +1,5 @@
 #Listings {
-  padding-top: 12rem;
+  margin-top: -12rem;
 }
 .h2 {
   text-align: center;
@@ -7,8 +7,10 @@
 .listings {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
-  margin-left: 22rem;
+
   margin-top: 2rem;
 }
 .listings-b {
@@ -34,9 +36,15 @@
   color: #020c1b;
   width: 200px;
 }
+.locations {
+  width: 15rem;
+  border-bottom: 2px dotted #020c1b;
+  padding: 2rem;
+}
 .listings-location {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   margin-top: 4rem;
   margin-left: 16rem;
 }
