@@ -43,6 +43,11 @@
   width: 70rem;
   height: 20rem;
   margin-top: -15rem;
+  transition: 400ms;
+}
+.title2:hover {
+  opacity: 0.5;
+  color: #020c1b;
 }
 .title2 img {
   width: 70rem;
