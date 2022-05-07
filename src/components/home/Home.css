@@ -4,15 +4,22 @@
   width: 100%;
   object-fit: cover;
 }
+.home-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .content {
   position: absolute;
-  margin-top: -30rem;
-
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
   color: #ffff;
   z-index: 600;
-  margin-left: 25rem;
+}
+.content h2 {
+  margin-left: 6rem;
 }
 .button {
   position: relative;
