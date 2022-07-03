@@ -16,6 +16,7 @@ const Video = () => {
           width="1200rem"
           height="500rem"
           frameborder="0"
+          title="Selected Video"
         >
           {" "}
           <h1>Featured Video</h1>
