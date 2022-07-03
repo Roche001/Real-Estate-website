@@ -7,18 +7,15 @@ import { Container } from "react-bootstrap";
 const Top = () => {
   return (
     <section>
-      <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="#020c1b"
+        variant="dark"
+        className="navbar"
+      >
         <Container>
-          <Navbar.Brand href="#Header">
-            <div className="img">
-              <img
-                src="./assets/logo6.png"
-                alt="logo"
-                width="50px"
-                height="50px"
-              />
-            </div>
-          </Navbar.Brand>
+          <Navbar.Brand href="#Home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <div className="nav-items">
             <Navbar.Collapse id="responsive-navbar-nav">
