@@ -31,6 +31,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/alternatives-to-investing-in-property/"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
@@ -59,6 +61,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/kenya-properties/business/"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
@@ -87,6 +91,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/unscrupulous-land-dealers-in-kenya/"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
@@ -115,6 +121,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/get-rid-of-habits-that-can-make-you-poor/"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
@@ -143,6 +151,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/what-covid-19-means-for-real-estate-sector-in-kenya/"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
@@ -171,6 +181,8 @@ const Blogs = () => {
               <a
                 href="https://propertylistings.co.ke/9-factors-to-consider-when-renting-a-house-or-an-apartment//"
                 target="_blank"
+                without
+                rel="noreferrer"
               >
                 {" "}
                 <i>continue reading...</i>
