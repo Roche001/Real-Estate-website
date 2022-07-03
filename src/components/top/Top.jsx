@@ -3,20 +3,20 @@ import "./Top.css";
 import { BsBuilding } from "react-icons/bs";
 import { Nav, Navbar, Container } from "react-bootstrap";
 
-const Nav = () => {
+const Top = () => {
   return (
     <section>
       <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
         <Container>
           <Navbar.Brand href="#Header">
-            <div className="img">
-              <img
-                src="./assets/logo6.png"
-                alt="logo"
-                width="50px"
-                height="50px"
-              />
-            </div>
+            <a href="#Home" className="office">
+              <h3 className="pharolix">
+                {" "}
+                <BsBuilding />
+                Pharolix
+              </h3>
+              <small className="agency">Real Estate Agency</small>
+            </a>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <div className="nav-items">
@@ -46,4 +46,4 @@ const Nav = () => {
   );
 };
 
-export default Nav;
+export default ;
