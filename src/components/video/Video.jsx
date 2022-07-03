@@ -16,7 +16,10 @@ const Video = () => {
           width="1200rem"
           height="500rem"
           frameborder="0"
-        ></iframe>
+        >
+          {" "}
+          Selected Video
+        </iframe>
       </div>
     </section>
   );
