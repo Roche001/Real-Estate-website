@@ -21,19 +21,19 @@ const Agents = () => {
             <h5>Listing: 10 Properties</h5>
             <h4>Liz Ryan</h4>
             <div className="socials">
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <BsFacebook />
               </a>
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsInstagram />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <FaTwitter />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsLinkedin />
               </a>
@@ -48,19 +48,19 @@ const Agents = () => {
             <h5>Listing: 13 Properties</h5>
             <h4>Leah Smart</h4>
             <div className="socials">
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <BsFacebook />
               </a>
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsInstagram />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <FaTwitter />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsLinkedin />
               </a>
@@ -75,19 +75,19 @@ const Agents = () => {
             <h5>Listing: 23 Properties</h5>
             <h4>Susan Cain</h4>
             <div className="socials">
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <BsFacebook />
               </a>
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsInstagram />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <FaTwitter />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsLinkedin />
               </a>
@@ -102,19 +102,19 @@ const Agents = () => {
             <h5>Listing: 10 Properties</h5>
             <h4>Mickey Mikitani</h4>
             <div className="socials">
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <BsFacebook />
               </a>
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsInstagram />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <FaTwitter />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsLinkedin />
               </a>
@@ -129,19 +129,19 @@ const Agents = () => {
             <h5>Listing: 10 Properties</h5>
             <h4>Alina Khan</h4>
             <div className="socials">
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <BsFacebook />
               </a>
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsInstagram />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 <FaTwitter />
               </a>
 
-              <a href="#" target="_blank">
+              <a href="#facebook.com" target="_blank">
                 {" "}
                 <BsLinkedin />
               </a>
