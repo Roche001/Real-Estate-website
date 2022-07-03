@@ -21,7 +21,7 @@ const Home = () => {
       }}
       navigation={true}
       modules={[Autoplay, Pagination, Navigation]}
-      className="mySwiper"
+      className="mySwiper container-fluid"
     >
       <SwiperSlide className="home-box">
         <div className="overlay"></div>
