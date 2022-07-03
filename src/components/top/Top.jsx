@@ -46,4 +46,4 @@ const Top = () => {
   );
 };
 
-export default ;
+export default Top;

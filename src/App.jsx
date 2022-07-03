@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/scss/bootstrap";
 import Home from "./components/home/Home";
 import Top from "./components/top/Top";
 import About from "./components/about/About";
