@@ -16,8 +16,8 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <>
-      <Home />
       <Top />
+      <Home />
       <About />
       <Listings />
       <Properties />

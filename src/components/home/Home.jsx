@@ -23,7 +23,7 @@ const Home = () => {
       modules={[Autoplay, Pagination, Navigation]}
       className="mySwiper container-fluid"
     >
-      <SwiperSlide className="home-box">
+      <SwiperSlide id="Home" className="home-box">
         <div className="overlay"></div>
         <img src="./assets/bed2.jpg" alt="bed" />
 
