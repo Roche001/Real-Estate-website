@@ -1,23 +1,15 @@
 import React from "react";
 import "./Top.css";
 import { BsBuilding } from "react-icons/bs";
-import { Nav, Navbar, Container } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Top = () => {
   return (
     <section>
       <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
         <Container>
-          <Navbar.Brand href="#Header">
-            <a href="#Home" className="office">
-              <h3 className="pharolix">
-                {" "}
-                <BsBuilding />
-                Pharolix
-              </h3>
-              <small className="agency">Real Estate Agency</small>
-            </a>
-          </Navbar.Brand>
+          <Navbar.Brand href="#Header"></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <div className="nav-items">
             <Navbar.Collapse id="responsive-navbar-nav">
