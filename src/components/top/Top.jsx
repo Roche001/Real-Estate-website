@@ -7,13 +7,7 @@ import { Container } from "react-bootstrap";
 const Top = () => {
   return (
     <section>
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="#020c1b"
-        variant="dark"
-        className="navbar"
-      >
+      <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
         <Container>
           <Navbar.Brand href="#Home"></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
