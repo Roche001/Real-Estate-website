@@ -18,7 +18,7 @@ const Video = () => {
           frameborder="0"
         >
           {" "}
-          Selected Video
+          <h1>Featured Video</h1>
         </iframe>
       </div>
     </section>
