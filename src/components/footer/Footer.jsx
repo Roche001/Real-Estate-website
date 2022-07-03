@@ -10,16 +10,28 @@ const Footer = () => {
     <section id="footer">
       <div className="footer">
         <div className="social">
-          <a href="https://www.instagram.com/" target="_blank">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
             <AiOutlineInstagram />
           </a>
           <a
             href="https://www.facebook.com/profile.php?id=100006045915802"
             target="_blank"
+            without
+            rel="noreferrer"
           >
             <RiFacebookCircleFill />
           </a>
-          <a href="https://twitter.com/" target="_blank">
+          <a
+            href="https://twitter.com/"
+            target="_blank"
+            without
+            rel="noreferrer"
+          >
             <AiFillTwitterCircle />
           </a>
         </div>
