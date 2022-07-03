@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./components/home/Home";
-import Nav from "./components/nav/Nav";
+import Top from "./components/top/Top";
 import About from "./components/about/About";
 import Listings from "./components/listings/Listings";
 import Properties from "./components/properties/Properties";
@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <Home />
-      <Nav />
+      <Top />
       <About />
       <Listings />
       <Properties />

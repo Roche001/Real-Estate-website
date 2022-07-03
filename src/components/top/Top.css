@@ -21,6 +21,7 @@ nav a {
   color: #00ffff;
   font-size: 1rem;
   align-items: center;
+  text-decoration: none;
 }
 .navbar a:hover {
   background: #00ffff;
