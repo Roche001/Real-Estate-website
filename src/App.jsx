@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/home/Home";
 import Top from "./components/top/Top";
+import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Listings from "./components/listings/Listings";
 import Properties from "./components/properties/Properties";

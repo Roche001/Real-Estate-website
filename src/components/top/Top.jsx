@@ -1,42 +1,61 @@
 import React from "react";
 import "./Top.css";
 
-import { Nav, Navbar } from "react-bootstrap";
-import { Container } from "react-bootstrap";
-
 const Top = () => {
   return (
     <section>
-      <Navbar collapseOnSelect expand="lg" bg="#020c1b" variant="dark">
-        <Container>
-          <Navbar.Brand href="#Home"></Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <div className="nav-items">
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link href="#Home">
-                  <h6>Home</h6>
-                </Nav.Link>
-                <Nav.Link href="#About">
-                  <h6>About</h6>
-                </Nav.Link>
-                <Nav.Link href="#Agents">
-                  <h6>Agents</h6>
-                </Nav.Link>
-                <Nav.Link href="#Blogs">
-                  <h6>Blogs</h6>
-                </Nav.Link>
-                <Nav.Link href="#Reviews">
-                  <h6>Reviews</h6>
-                </Nav.Link>
-                <Nav.Link href="#Contacts">
-                  <h6>Contacts</h6>
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#Home">
+            Navbar
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Agents">
+                  Agents
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blogs">
+                  Blogs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Reviews">
+                  Reviews
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contacts">
+                  Contacts
+                </a>
+              </li>
+            </ul>
           </div>
-        </Container>
-      </Navbar>
+        </div>
+      </nav>
     </section>
   );
 };
