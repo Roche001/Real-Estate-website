@@ -29,7 +29,7 @@ const Contacts = () => {
     e.target.reset();
   };
   return (
-    <section id="Contacts">
+    <section id="Contacts container-fluid">
       <div className="container">
         <div class="contact-options">
           <div class="contact-option">
