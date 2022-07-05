@@ -4,7 +4,7 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 
 const Blogs = () => {
   return (
-    <section id="Blogs">
+    <section id="Blogs" className="container-fluid">
       <div className="h2">
         <h5>Real Estate Blogs</h5>
         <h2>Recent Real Estate Blogss</h2>
