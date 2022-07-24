@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Top from "./components/top/Top";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Listings from "./components/listings/Listings";
@@ -15,6 +16,7 @@ import Footer from "./components/footer/Footer";
 const App = () => {
   return (
     <>
+      <Top />
       <Home />
       <About />
       <Listings />
